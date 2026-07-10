@@ -1,16 +1,54 @@
-# React + Vite
+# 🎓 Student Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React Single Page Application (SPA) developed using React and React Router.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🏠 Home Page
+- 👨‍🎓 Student Management
+- 👩‍🏫 Teacher Management
+- 📝 Student Registration
+- 📞 Contact Page
+- 🔍 Search
+- ✏️ Edit
+- 🗑️ Delete
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- React Router DOM
+- JavaScript
+- HTML
+- CSS
+- Vite
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
+
+## Project Structure
+
+```
+src
+│
+├── student management system
+│   ├── Home.jsx
+│   ├── Students.jsx
+│   ├── Teachers.jsx
+│   ├── StudentDetails.jsx
+│   ├── Contact.jsx
+│   ├── Navigation.jsx
+│   └── Logo.jsx
+│
+├── App.jsx
+├── main.jsx
+├── App.css
+└── index.css
+```
+
+## Author
+
+Bhavana Gonuguntla
